@@ -1,0 +1,6 @@
+framework module Pods_GrammyNominations {
+  umbrella header "Pods-GrammyNominations-umbrella.h"
+
+  export *
+  module * { export * }
+}

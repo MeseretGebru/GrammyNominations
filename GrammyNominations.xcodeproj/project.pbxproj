@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E13597E59C4E222C09A2494 /* Pods_GrammyNominations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964783E9EE40A25DD3B6DC99 /* Pods_GrammyNominations.framework */; };
 		DB4E70492020C53500AB31EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E70482020C53500AB31EE /* AppDelegate.swift */; };
 		DB4E704B2020C53500AB31EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E704A2020C53500AB31EE /* ViewController.swift */; };
 		DB4E704E2020C53500AB31EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4E704C2020C53500AB31EE /* Main.storyboard */; };
 		DB4E70502020C53500AB31EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4E704F2020C53500AB31EE /* Assets.xcassets */; };
 		DB4E70532020C53500AB31EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4E70512020C53500AB31EE /* LaunchScreen.storyboard */; };
+		DBE3A5C52020C87000A83953 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBE3A5C42020C87000A83953 /* GoogleService-Info.plist */; };
+		DBE3A5C72020D93B00A83953 /* GrammyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3A5C62020D93B00A83953 /* GrammyTableViewCell.swift */; };
+		DBE3A5C92020D9B700A83953 /* GrammyArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE3A5C82020D9B700A83953 /* GrammyArtist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0180AEEB1810332C395A2288 /* Pods-GrammyNominations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrammyNominations.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrammyNominations/Pods-GrammyNominations.release.xcconfig"; sourceTree = "<group>"; };
+		27CC8D991AD6F39D3E0612DD /* Pods-GrammyNominations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrammyNominations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrammyNominations/Pods-GrammyNominations.debug.xcconfig"; sourceTree = "<group>"; };
+		964783E9EE40A25DD3B6DC99 /* Pods_GrammyNominations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrammyNominations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4E70452020C53500AB31EE /* GrammyNominations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrammyNominations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4E70482020C53500AB31EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB4E704A2020C53500AB31EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		DB4E704F2020C53500AB31EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB4E70522020C53500AB31EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB4E70542020C53500AB31EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE3A5C42020C87000A83953 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DBE3A5C62020D93B00A83953 /* GrammyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammyTableViewCell.swift; sourceTree = "<group>"; };
+		DBE3A5C82020D9B700A83953 /* GrammyArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammyArtist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E13597E59C4E222C09A2494 /* Pods_GrammyNominations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E9B3F07004AA4727DBF6384 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				964783E9EE40A25DD3B6DC99 /* Pods_GrammyNominations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB4E703C2020C53500AB31EE = {
 			isa = PBXGroup;
 			children = (
 				DB4E70472020C53500AB31EE /* GrammyNominations */,
 				DB4E70462020C53500AB31EE /* Products */,
+				F3AC43664019DA6919ACEBEF /* Pods */,
+				6E9B3F07004AA4727DBF6384 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +76,25 @@
 			isa = PBXGroup;
 			children = (
 				DB4E70482020C53500AB31EE /* AppDelegate.swift */,
+				DBE3A5C62020D93B00A83953 /* GrammyTableViewCell.swift */,
 				DB4E704A2020C53500AB31EE /* ViewController.swift */,
+				DBE3A5C82020D9B700A83953 /* GrammyArtist.swift */,
+				DBE3A5C42020C87000A83953 /* GoogleService-Info.plist */,
 				DB4E704C2020C53500AB31EE /* Main.storyboard */,
 				DB4E704F2020C53500AB31EE /* Assets.xcassets */,
 				DB4E70512020C53500AB31EE /* LaunchScreen.storyboard */,
 				DB4E70542020C53500AB31EE /* Info.plist */,
 			);
 			path = GrammyNominations;
+			sourceTree = "<group>";
+		};
+		F3AC43664019DA6919ACEBEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27CC8D991AD6F39D3E0612DD /* Pods-GrammyNominations.debug.xcconfig */,
+				0180AEEB1810332C395A2288 /* Pods-GrammyNominations.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB4E70572020C53500AB31EE /* Build configuration list for PBXNativeTarget "GrammyNominations" */;
 			buildPhases = (
+				33563837CC9CAB9518AD603F /* [CP] Check Pods Manifest.lock */,
 				DB4E70412020C53500AB31EE /* Sources */,
 				DB4E70422020C53500AB31EE /* Frameworks */,
 				DB4E70432020C53500AB31EE /* Resources */,
+				680C6909E6A4D36E72FDDF5B /* [CP] Embed Pods Frameworks */,
+				CFDE8784176F855601AF3578 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB4E70532020C53500AB31EE /* LaunchScreen.storyboard in Resources */,
+				DBE3A5C52020C87000A83953 /* GoogleService-Info.plist in Resources */,
 				DB4E70502020C53500AB31EE /* Assets.xcassets in Resources */,
 				DB4E704E2020C53500AB31EE /* Main.storyboard in Resources */,
 			);
@@ -131,11 +168,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33563837CC9CAB9518AD603F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrammyNominations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		680C6909E6A4D36E72FDDF5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GrammyNominations/Pods-GrammyNominations-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrammyNominations/Pods-GrammyNominations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDE8784176F855601AF3578 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrammyNominations/Pods-GrammyNominations-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB4E70412020C53500AB31EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE3A5C72020D93B00A83953 /* GrammyTableViewCell.swift in Sources */,
+				DBE3A5C92020D9B700A83953 /* GrammyArtist.swift in Sources */,
 				DB4E704B2020C53500AB31EE /* ViewController.swift in Sources */,
 				DB4E70492020C53500AB31EE /* AppDelegate.swift in Sources */,
 			);
@@ -272,6 +369,7 @@
 		};
 		DB4E70582020C53500AB31EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CC8D991AD6F39D3E0612DD /* Pods-GrammyNominations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +384,7 @@
 		};
 		DB4E70592020C53500AB31EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0180AEEB1810332C395A2288 /* Pods-GrammyNominations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
